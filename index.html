@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cyber Security Bot - Advanced Discord Protection</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="fixed-header">
+    <nav class="container">
+      <div class="logo">
+        <div class="logo-icon">
+          <i class="fas fa-shield-alt"></i>
+        </div>
+        <a href="#" class="logo-text">CYBER<span>SECURITY</span></a>
+      </div>
+      
+      <button class="mobile-menu-button" aria-label="Toggle menu">
+        <i class="fas fa-bars"></i>
+      </button>
+      
+      <ul class="desktop-nav">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#commands">Commands</a></li>
+        <li><a href="#stats">Statistics</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Support</a></li>
+      </ul>
+      
+      <a href="#add-bot" class="cta-button desktop-cta">Add to Discord</a>
+    </nav>
+    
+    <div class="mobile-nav">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#commands">Commands</a></li>
+        <li><a href="#stats">Statistics</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Support</a></li>
+        <li><a href="#add-bot" class="cta-button">Add to Discord</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+      <div class="hero-bg"></div>
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1>Advanced <span class="text-glow">Security</span> for Your Discord Server</h1>
+            <p>Protect your community with cutting-edge security features. CyberSecurity Bot provides comprehensive protection against raids, spam, scams, and malicious content.</p>
+            <div class="hero-buttons">
+              <a href="#add-bot" class="primary-button">Add to Discord</a>
+              <a href="#features" class="outline-button">Explore Features</a>
+            </div>
+          </div>
+          
+          <div class="hero-image">
+            <div class="image-glow"></div>
+            <img src="https://images.unsplash.com/photo-1633412802994-5c058f151b66?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="CyberSecurity Bot Dashboard">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Advanced Security <span>Features</span></h2>
+          <p>Comprehensive protection with customizable settings to keep your Discord server safe from all threats.</p>
+        </div>
+        
+        <div class="features-grid">
+          <!-- Anti-Raid Protection -->
+          <div class="security-card">
+            <div class="feature-icon">
+              <i class="fas fa-user-shield"></i>
+            </div>
+            <h3>Anti-Raid Protection</h3>
+            <p>Automatically detects and prevents coordinated join attacks with advanced algorithms and user verification.</p>
+            <div class="feature-tags">
+              <span>Auto Lockdown</span>
+              <span>User Verification</span>
+            </div>
+          </div>
+          
+          <!-- Intelligent Anti-Spam -->
+          <div class="security-card">
+            <div class="feature-icon">
+              <i class="fas fa-robot"></i>
+            </div>
+            <h3>Intelligent Anti-Spam</h3>
+            <p>ML-powered detection system identifies and stops spam patterns, excessive mentions, and repetitive messages.</p>
+            <div class="feature-tags">
+              <span>Pattern Detection</span>
+              <span>Auto Mute</span>
+            </div>
+          </div>
+          
+          <!-- Phishing & Scam Detection -->
+          <div class="security-card">
+            <div class="feature-icon">
+              <i class="fas fa-link"></i>
+            </div>
+            <h3>Phishing & Scam Detection</h3>
+            <p>Blocks malicious links, scam attempts, and phishing URLs with real-time database verification.</p>
+            <div class="feature-tags">
+              <span>Link Scanning</span>
+              <span>Auto Delete</span>
+            </div>
+          </div>
+          
+          <!-- Content Moderation -->
+          <div class="security-card">
+            <div class="feature-icon">
+              <i class="fas fa-shield-virus"></i>
+            </div>
+            <h3>Content Moderation</h3>
+            <p>Advanced filters for explicit content, toxic language, and inappropriate media with customizable sensitivity.</p>
+            <div class="feature-tags">
+              <span>Media Scanning</span>
+              <span>Text Filtering</span>
+            </div>
+          </div>
+          
+          <!-- Alert System -->
+          <div class="security-card">
+            <div class="feature-icon">
+              <i class="fas fa-bell"></i>
+            </div>
+            <h3>Alert System</h3>
+            <p>Real-time notifications for suspicious activities and security incidents through multiple channels.</p>
+            <div class="feature-tags">
+              <span>Discord Alerts</span>
+              <span>Webhook Integration</span>
+            </div>
+          </div>
+          
+          <!-- Security Logs & Analytics -->
+          <div class="security-card">
+            <div class="feature-icon">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <h3>Security Logs & Analytics</h3>
+            <p>Comprehensive logs and data visualization to track incidents and understand security trends.</p>
+            <div class="feature-tags">
+              <span>Detailed Reports</span>
+              <span>Visual Graphs</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Commands Section -->
+    <section id="commands" class="commands-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Command <span>Documentation</span></h2>
+          <p>Powerful commands to manage security features and protect your server.</p>
+        </div>
+        
+        <div class="command-container">
+          <div class="command-tabs">
+            <button class="tab-button active" data-category="Basic Commands">Basic Commands</button>
+            <button class="tab-button" data-category="Moderation">Moderation</button>
+            <button class="tab-button" data-category="Anti-Raid">Anti-Raid</button>
+            <button class="tab-button" data-category="Configuration">Configuration</button>
+          </div>
+          
+          <div class="command-content active" id="Basic Commands">
+            <div class="command-item">
+              <div class="command-name">!shield help</div>
+              <div class="command-details">
+                <p>Displays all available commands and basic usage information.</p>
+                <div class="command-usage">
+                  <p><span>Usage: </span><code>!shield help [command]</code></p>
+                  <p><span>Example: </span><code>!shield help antispam</code></p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="command-item">
+              <div class="command-name">!shield status</div>
+              <div class="command-details">
+                <p>Shows the current security status and active protections.</p>
+                <div class="command-usage">
+                  <p><span>Usage: </span><code>!shield status</code></p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="command-item">
+              <div class="command-name">!shield scan</div>
+              <div class="command-details">
+                <p>Performs a security scan of the server or specified channel.</p>
+                <div class="command-usage">
+                  <p><span>Usage: </span><code>!shield scan [channel]</code></p>
+                  <p><span>Example: </span><code>!shield scan #general</code></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="command-content" id="Moderation">
+            <div class="command-item">
+              <div class="command-name">!shield antispam</div>
+              <div class="command-details">
+                <p>Manages spam detection and prevention settings.</p>
+                <div class="command-usage">
+                  <p><span>Usage: </span><code>!shield antispam [enable/disable] [sensitivity]</code></p>
+                  <p><span>Example: </span><code>!shield antispam enable high</code></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="command-content" id="Anti-Raid">
+            <div class="command-item">
+              <div class="command-name">!shield antiraid</div>
+              <div class="command-details">
+                <p>Configures anti-raid protection settings and thresholds.</p>
+                <div class="command-usage">
+                  <p><span>Usage: </span><code>!shield antiraid [enable/disable] [threshold]</code></p>
+                  <p><span>Example: </span><code>!shield antiraid enable 5</code></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="command-content" id="Configuration">
+            <!-- No commands in this category yet -->
+            <p class="empty-category">No configuration commands available yet.</p>
+          </div>
+        </div>
+        
+        <div class="commands-footer">
+          <a href="#" class="view-more">
+            <span>View complete command documentation</span>
+            <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats-section">
+      <div class="stats-bg"></div>
+      <div class="container">
+        <div class="section-header">
+          <h2>Security <span>Statistics</span></h2>
+          <p>Real-time protection across thousands of Discord servers.</p>
+        </div>
+        
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-icon">
+              <i class="fas fa-server"></i>
+            </div>
+            <div class="stat-value" data-count="25000">0</div>
+            <div class="stat-label">Protected Servers</div>
+          </div>
+          
+          <div class="stat-card">
+            <div class="stat-icon">
+              <i class="fas fa-user-shield"></i>
+            </div>
+            <div class="stat-value" data-count="5000000">0</div>
+            <div class="stat-label">Protected Users</div>
+          </div>
+          
+          <div class="stat-card">
+            <div class="stat-icon">
+              <i class="fas fa-shield-virus"></i>
+            </div>
+            <div class="stat-value" data-count="350000">0</div>
+            <div class="stat-label">Weekly Threats Blocked</div>
+          </div>
+          
+          <div class="stat-card">
+            <div class="stat-icon">
+              <i class="fas fa-link-slash"></i>
+            </div>
+            <div class="stat-value" data-count="175000">0</div>
+            <div class="stat-label">Phishing Attempts Blocked</div>
+          </div>
+        </div>
+        
+        <div class="protection-activity">
+          <div class="activity-card">
+            <h3>Protection Activity <span>(Last 30 days)</span></h3>
+            
+            <div class="activity-items">
+              <div class="activity-item">
+                <div class="activity-header">
+                  <span class="activity-label">Raid Attempts Blocked</span>
+                  <span class="activity-value">1,240</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 65%"></div>
+                </div>
+              </div>
+              
+              <div class="activity-item">
+                <div class="activity-header">
+                  <span class="activity-label">Spam Messages Filtered</span>
+                  <span class="activity-value">87,325</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 82%"></div>
+                </div>
+              </div>
+              
+              <div class="activity-item">
+                <div class="activity-header">
+                  <span class="activity-label">Scam/Phishing Links</span>
+                  <span class="activity-value">43,157</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 71%"></div>
+                </div>
+              </div>
+              
+              <div class="activity-item">
+                <div class="activity-header">
+                  <span class="activity-label">Content Violations</span>
+                  <span class="activity-value">12,908</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 45%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Frequently Asked <span>Questions</span></h2>
+          <p>Everything you need to know about CyberSecurity Bot.</p>
+        </div>
+        
+        <div class="faq-container">
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>How do I add CyberSecurity Bot to my server?</h3>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <p>Adding CyberSecurity Bot is simple! Click the "Add to Discord" button at the top of this page, authorize the bot with your Discord account, select your server, and confirm the required permissions. The bot will join your server immediately and be ready for configuration.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>What permissions does the bot require?</h3>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <p>For full functionality, CyberSecurity Bot requires Administrator permissions. However, you can customize permissions for a more limited scope. At minimum, it needs: Manage Server, Manage Roles, Manage Channels, Kick/Ban Members, Manage Messages, and View Audit Log.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>Is there a premium version available?</h3>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <p>Yes! While the free version offers robust protection, our Premium tier includes advanced features like custom branding, increased rate limits, priority support, and enhanced security options. Visit our Premium page for more details and pricing.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>How do I configure the anti-raid system?</h3>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <p>Use the <code>!shield antiraid</code> command to configure settings. You can set join rate thresholds, verification requirements, and automated actions. For example, <code>!shield antiraid enable 5 lockdown</code> will trigger a server lockdown if 5+ users join within 10 seconds.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>Can I customize the bot's responses?</h3>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <p>Yes! With the <code>!shield messages</code> command, you can customize warning messages, notifications, and other bot responses. Premium users get additional customization options including custom embeds and branding.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Support & <span>Contact</span></h2>
+          <p>Need help? Have questions? Contact our support team.</p>
+        </div>
+        
+        <div class="contact-grid">
+          <div class="support-options">
+            <div class="support-card">
+              <h3>Support Options</h3>
+              
+              <div class="support-items">
+                <div class="support-item">
+                  <div class="support-icon">
+                    <i class="fab fa-discord"></i>
+                  </div>
+                  <div class="support-details">
+                    <h4>Support Server</h4>
+                    <p>Join our official Discord server for direct support.</p>
+                    <a href="#">discord.gg/cybersecurity</a>
+                  </div>
+                </div>
+                
+                <div class="support-item">
+                  <div class="support-icon">
+                    <i class="fas fa-book"></i>
+                  </div>
+                  <div class="support-details">
+                    <h4>Documentation</h4>
+                    <p>Browse our detailed documentation and guides.</p>
+                    <a href="#">docs.cybersecurity.bot</a>
+                  </div>
+                </div>
+                
+                <div class="support-item">
+                  <div class="support-icon">
+                    <i class="fas fa-envelope"></i>
+                  </div>
+                  <div class="support-details">
+                    <h4>Email Support</h4>
+                    <p>Send us an email for non-urgent inquiries.</p>
+                    <a href="mailto:support@cybersecurity.bot">support@cybersecurity.bot</a>
+                  </div>
+                </div>
+                
+                <div class="support-item">
+                  <div class="support-icon">
+                    <i class="fab fa-twitter"></i>
+                  </div>
+                  <div class="support-details">
+                    <h4>Twitter</h4>
+                    <p>Follow us for updates and quick support.</p>
+                    <a href="#">@CyberSecurityBot</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="contact-form-container">
+            <div class="contact-card">
+              <h3>Contact Form</h3>
+              
+              <form id="contactForm" class="contact-form">
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" id="name" name="name" placeholder="Your name" required>
+                  <div class="error-message" id="nameError"></div>
+                </div>
+                
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                  <div class="error-message" id="emailError"></div>
+                </div>
+                
+                <div class="form-group">
+                  <label for="subject">Subject</label>
+                  <select id="subject" name="subject" required>
+                    <option value="" disabled selected>Select a subject</option>
+                    <option value="General Inquiry">General Inquiry</option>
+                    <option value="Technical Support">Technical Support</option>
+                    <option value="Billing Question">Billing Question</option>
+                    <option value="Feature Request">Feature Request</option>
+                    <option value="Report a Bug">Report a Bug</option>
+                  </select>
+                  <div class="error-message" id="subjectError"></div>
+                </div>
+                
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea id="message" name="message" placeholder="How can we help?" rows="4" required></textarea>
+                  <div class="error-message" id="messageError"></div>
+                </div>
+                
+                <button type="submit" id="submitButton" class="submit-button">Send Message</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="add-bot" class="cta-section">
+      <div class="cta-bg"></div>
+      <div class="container">
+        <div class="cta-content">
+          <h2>Protect Your Discord Server Today</h2>
+          <p>Join thousands of servers using CyberSecurity Bot for advanced protection.</p>
+          
+          <div class="cta-buttons">
+            <a href="#" class="white-button">
+              <i class="fab fa-discord"></i>
+              Add to Discord
+            </a>
+            <a href="#" class="outline-white-button">
+              View Documentation
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <div class="footer-logo">
+            <div class="footer-logo-icon">
+              <i class="fas fa-shield-alt"></i>
+            </div>
+            <span class="footer-logo-text">CYBER<span>SECURITY</span></span>
+          </div>
+          <p>Advanced security and moderation for Discord servers. Protection against raids, spam, scams, and malicious content.</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-discord"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-patreon"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#commands">Commands</a></li>
+            <li><a href="#stats">Statistics</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contact">Support</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-links">
+          <h3>Resources</h3>
+          <ul>
+            <li><a href="#">Documentation</a></li>
+            <li><a href="#">API Reference</a></li>
+            <li><a href="#">Status Page</a></li>
+            <li><a href="#">Roadmap</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-links">
+          <h3>Legal</h3>
+          <ul>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Cookie Policy</a></li>
+            <li><a href="#">DMCA</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; <span id="currentYear">2025</span> CyberSecurity Bot. All rights reserved.</p>
+        <p>Not affiliated with Discord Inc.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
